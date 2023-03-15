@@ -1,3 +1,3 @@
 class PtUserSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id, :username, :firstName, :lastName, :emai, :patients, :test
 end
