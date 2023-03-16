@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :tests
+  resources :patients
   resources :pt_users
   get '/hello', to: 'application#hello_world'
 
